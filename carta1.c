@@ -9,7 +9,7 @@ int main(){
     int pontosturístico =40;
 
     printf ("qual o estado: \n");
-    scanf ("%s", &Estado);
+    scanf ("%d", &Estado);
 
     printf ("nome da cidade: \n");
     scanf ("%d", &cidade);
@@ -22,6 +22,20 @@ int main(){
 
     printf ("numero de pontosturisticos: \n");
     scanf ("%d", &pontosturístico);
+
+    printf ("estado:%d\n,estado"); 
+
+    printf ("cidade:%d\n",cidade);
+    printf ("numero de população:%d\n",populaçao);
+    printf("area em km2:%f\n",km2);
+    printf("numero de pontosturisticos:%d",pontosturístico);
+    return  0
+
+
+    
+    
+
+
 
 
 
